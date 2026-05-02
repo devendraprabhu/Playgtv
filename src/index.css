@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+  --font-akira: 'Akira Expanded', sans-serif;
+}
+
+/* You can still add your custom base styles here */
+body {
+  @apply bg-slate-950 text-white;
+}
